@@ -8,7 +8,6 @@ class Example:
                  'house': ['toll house']
                  }
 
-    # 动态集
     def dynamicset(self):
         set = {'t1': (('toll house', 1), ('minor toll-road', 2), ('railway', 3)),
                't2': (('house', 4), ('house', 5), ('minor road', 6)),
@@ -16,7 +15,6 @@ class Example:
                }
         return set
 
-    # 动态集实体之间的关系
     def relation(self):
         rel = [{'o': 1, 't': 4}, {'o': 1, 't': 5},
                {'o': 3, 't': 6}, {'o': 2, 't': 6},
